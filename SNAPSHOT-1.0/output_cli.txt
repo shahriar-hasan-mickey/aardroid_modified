@@ -1,0 +1,112 @@
+Initializing AARDroid. . .
+Removing old temporary directories. . . 
+Creating new temporary directories. . . 
+Checking if the .aar file exists . . .
+File found in directory ../AAR/Test/authorize.aar
+Copying .aar file into temp directory . . . 
+File copy successful
+Unzipping .aar file . . . 
+Unzipping successful.
+Extracting classes.jar into temp/jar . . .
+Extraction successful. Classes extracted to temp/jar
+Parsing ontology files. . .
+
+Ontology parsing complete. . .
+Initializing ASM Parser. . .
+Processing done
+Generating SS file. . .
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1|2|3
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;,1:username,2:key
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V,1:url
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V,1:identifier
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V,1:paymentcardinformation
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V,1:paymentcardnumber
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;,1:username,2:hash
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V,1:hash
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;,1:credential
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V,1:paymentcardnumber,2:paymentcardexpirationdate,3:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:personname
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z,1:zipcode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V,1:hash
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;,1:personname
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;,1:url
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V,1:hash
+SS file generated in temp/SS.txt 
+Removing old files from activity directory: app/src/main/java/com/example/app
+Creating new activity directory: app/src/main/java/com/example/app
+Copying activity template in activity directory. . 
+Removing old manifest file . . .
+Creating new manifest file with 31 activities . . 
+Manifest generated in app/src/main/AndroidManifest.xml directory. . . 
+Creating dummy activities . . 
+Dummy  activities created . . 
+Initiating AARDroid. . .
+> Task :clean UP-TO-DATE
+> Task :app:clean UP-TO-DATE
+
+BUILD SUCCESSFUL in 875ms
+2 actionable tasks: 2 up-to-date
+Gradle clean done
+Building dummy app
+Building dummy app successful
+app/build/outputs/apk/debug/authorize.apk is not decompilable.
+Total apks: 0
+ INFO | 2023-05-04 10:10:33.385 | Interface.ArgumentsCheck (ArgumentsCheck.java:148) | Displaying info level logs
+ INFO | 2023-05-04 10:10:33.579 | Interface.ArgumentsCheck (ArgumentsCheck.java:176) | Using the output: Default
+Analyzing SDK: authorize
+Phase 1: Beginning preprocessing step
+Removing old library file. . .
+Copying new library file. . .
+Phase 2: Generating APK for authorize
+Phase 3: Running dataflow analysis
+Phase 4: Running Crypto/ TLS analysis
+Error generating report for authorize
+Error generating authorize.aar

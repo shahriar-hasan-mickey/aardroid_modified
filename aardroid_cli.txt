@@ -1,0 +1,482 @@
+Initializing AARDroid. . .
+Removing old temporary directories. . . 
+Creating new temporary directories. . . 
+Checking if the .aar file exists . . .
+File found in directory ../AAR/Test/authorize.aar
+Copying .aar file into temp directory . . . 
+File copy successful
+Unzipping .aar file . . . 
+Unzipping successful.
+Extracting classes.jar into temp/jar . . .
+Extraction successful. Classes extracted to temp/jar
+Parsing ontology files. . .
+
+Ontology parsing complete. . .
+Initializing ASM Parser. . .
+Processing done
+Generating SS file. . .
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1|2|3
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;,1:username,2:key
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V,1:url
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V,1:identifier
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V,1:paymentcardinformation
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V,1:paymentcardnumber
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;,1:username,2:hash
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V,1:hash
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;,1:credential
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V,1:paymentcardnumber,2:paymentcardexpirationdate,3:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:personname
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z,1:zipcode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V,1:hash
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;,1:personname
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;,1:url
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V,1:hash
+SS file generated in temp/SS.txt 
+Removing old files from activity directory: app/src/main/java/com/example/app
+Creating new activity directory: app/src/main/java/com/example/app
+Copying activity template in activity directory. . 
+Removing old manifest file . . .
+Creating new manifest file with 31 activities . . 
+Manifest generated in app/src/main/AndroidManifest.xml directory. . . 
+Creating dummy activities . . 
+Dummy  activities created . . 
+Initiating AARDroid. . .
+> Task :clean
+> Task :app:clean
+
+BUILD SUCCESSFUL in 890ms
+2 actionable tasks: 2 executed
+Gradle clean done
+Building dummy app
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:javaPreCompileRelease
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeExtDexDebug
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseResources
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+> Task :app:mergeExtDexRelease
+
+> Task :app:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/reports/lint-results.html
+Wrote XML report to file:///home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/reports/lint-results.xml
+
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:bundleDebugClasses
+> Task :app:bundleReleaseClasses
+> Task :app:compileDebugUnitTestJavaWithJavac
+> Task :app:testDebugUnitTest
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac
+> Task :app:mergeDexRelease
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 14s
+61 actionable tasks: 61 executed
+Building dummy app successful
+Total apks: 1
+Analyzing #1:file:/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/outputs/apk/debug/authorize.apk
+Dedexing... Total: 2674
+[--------------------------------------------------]   0.00% 0ms ETA: ?[--------------------------------------------------]   0.07% 402ms ETA: 8m57s72ms[--------------------------------------------------]   1.01% 1s103ms ETA: 1m48s134ms[--------------------------------------------------]   1.08% 1s128ms ETA: 1m42s881ms[=-------------------------------------------------]   2.02% 1s698ms ETA: 1m22s384ms[=-------------------------------------------------]   3.03% 1s897ms ETA: 1m727ms   [=-------------------------------------------------]   3.33% 2s259ms ETA: 1m5s612ms[==------------------------------------------------]   4.00% 2s317ms ETA: 55s586ms [==------------------------------------------------]   5.01% 2s452ms ETA: 46s478ms[===-----------------------------------------------]   6.02% 2s651ms ETA: 41s378ms[===-----------------------------------------------]   7.03% 2s752ms ETA: 36s390ms[====----------------------------------------------]   8.00% 2s875ms ETA: 33s49ms [====----------------------------------------------]   9.01% 3s49ms ETA: 30s780ms[====----------------------------------------------]   9.91% 3s141ms ETA: 28s553ms[=====---------------------------------------------]  10.02% 3s159ms ETA: 28s360ms[=====---------------------------------------------]  11.03% 3s303ms ETA: 26s636ms[======--------------------------------------------]  12.00% 3s387ms ETA: 24s827ms[======--------------------------------------------]  13.01% 3s471ms ETA: 23s199ms[=======-------------------------------------------]  14.02% 3s700ms ETA: 22s683ms[=======-------------------------------------------]  14.96% 4s129ms ETA: 23s473ms[=======-------------------------------------------]  15.03% 4s171ms ETA: 23s573ms[========------------------------------------------]  16.01% 4s365ms ETA: 22s906ms[========------------------------------------------]  17.02% 4s449ms ETA: 21s697ms[=========-----------------------------------------]  18.03% 4s541ms ETA: 20s651ms[=========-----------------------------------------]  19.04% 4s669ms ETA: 19s859ms[==========----------------------------------------]  20.01% 4s814ms ETA: 19s247ms[==========----------------------------------------]  21.02% 5s64ms ETA: 19s30ms  [==========----------------------------------------]  21.65% 5s127ms ETA: 18s551ms[===========---------------------------------------]  22.03% 5s225ms ETA: 18s495ms[===========---------------------------------------]  23.04% 5s350ms ETA: 17s873ms[============--------------------------------------]  24.01% 5s542ms ETA: 17s541ms[============--------------------------------------]  25.02% 5s789ms ETA: 17s349ms[=============-------------------------------------]  26.03% 5s890ms ETA: 16s739ms[=============-------------------------------------]  27.00% 6s69ms ETA: 16s408ms [=============-------------------------------------]  27.67% 6s128ms ETA: 16s15ms[==============------------------------------------]  28.01% 6s168ms ETA: 15s852ms[==============------------------------------------]  29.02% 6s318ms ETA: 15s453ms[===============-----------------------------------]  30.03% 6s408ms ETA: 14s930ms[===============-----------------------------------]  31.00% 6s606ms ETA: 14s702ms[================----------------------------------]  32.01% 6s687ms ETA: 14s202ms[================----------------------------------]  33.02% 6s735ms ETA: 13s660ms[=================---------------------------------]  34.03% 6s789ms ETA: 13s160ms[=================---------------------------------]  35.00% 6s901ms ETA: 12s814ms[==================--------------------------------]  36.01% 7s9ms ETA: 12s453ms  [==================--------------------------------]  36.87% 7s185ms ETA: 12s300ms[==================--------------------------------]  37.02% 7s190ms ETA: 12s230ms[===================-------------------------------]  38.03% 7s292ms ETA: 11s880ms[===================-------------------------------]  39.01% 7s377ms ETA: 11s535ms[====================------------------------------]  40.01% 7s465ms ETA: 11s190ms[====================------------------------------]  41.02% 7s517ms ETA: 10s806ms[=====================-----------------------------]  42.03% 7s958ms ETA: 10s974ms[=====================-----------------------------]  43.01% 8s11ms ETA: 10s616ms [======================----------------------------]  44.02% 8s69ms ETA: 10s262ms[======================----------------------------]  44.69% 8s150ms ETA: 10s86ms[======================----------------------------]  45.03% 8s271ms ETA: 10s98ms[=======================---------------------------]  46.04% 8s402ms ETA: 9s848ms[=======================---------------------------]  47.01% 8s475ms ETA: 9s553ms[========================--------------------------]  48.02% 8s523ms ETA: 9s226ms[========================--------------------------]  49.03% 8s974ms ETA: 9s329ms[=========================-------------------------]  50.00% 9s62ms ETA: 9s62ms  [=========================-------------------------]  50.97% 9s126ms ETA: 8s777ms[=========================-------------------------]  51.01% 9s132ms ETA: 8s770ms[==========================------------------------]  52.02% 9s225ms ETA: 8s508ms[==========================------------------------]  53.03% 9s287ms ETA: 8s226ms[===========================-----------------------]  54.00% 9s419ms ETA: 8s23ms [===========================-----------------------]  55.01% 9s577ms ETA: 7s832ms[============================----------------------]  56.02% 9s646ms ETA: 7s572ms[============================----------------------]  57.03% 9s739ms ETA: 7s337ms[=============================---------------------]  58.00% 9s859ms ETA: 7s138ms[=============================---------------------]  59.01% 9s931ms ETA: 6s897ms[==============================--------------------]  60.02% 10s10ms ETA: 6s667ms[==============================--------------------]  61.03% 10s108ms ETA: 6s453ms[==============================--------------------]  61.14% 10s128ms ETA: 6s436ms[===============================-------------------]  62.00% 10s196ms ETA: 6s247ms[===============================-------------------]  63.01% 10s336ms ETA: 6s66ms [================================------------------]  64.02% 10s411ms ETA: 5s850ms[================================------------------]  65.03% 10s477ms ETA: 5s633ms[=================================-----------------]  66.01% 10s577ms ETA: 5s447ms[=================================-----------------]  67.02% 10s800ms ETA: 5s315ms[==================================----------------]  68.03% 10s870ms ETA: 5s109ms[==================================----------------]  69.04% 10s998ms ETA: 4s933ms[===================================---------------]  70.01% 11s65ms ETA: 4s740ms [===================================---------------]  71.02% 11s116ms ETA: 4s536ms[===================================---------------]  71.24% 11s126ms ETA: 4s491ms[====================================--------------]  72.03% 11s198ms ETA: 4s348ms[====================================--------------]  73.04% 11s325ms ETA: 4s180ms[=====================================-------------]  74.01% 11s394ms ETA: 4s1ms  [=====================================-------------]  75.02% 11s499ms ETA: 3s829ms[======================================------------]  76.03% 11s579ms ETA: 3s650ms[======================================------------]  77.00% 11s679ms ETA: 3s488ms[=======================================-----------]  78.01% 11s738ms ETA: 3s308ms[=======================================-----------]  79.02% 11s970ms ETA: 3s178ms[========================================----------]  80.03% 12s68ms ETA: 3s11ms  [========================================----------]  80.25% 12s141ms ETA: 2s987ms[========================================----------]  81.00% 12s188ms ETA: 2s858ms[=========================================---------]  82.01% 12s259ms ETA: 2s688ms[=========================================---------]  83.02% 12s319ms ETA: 2s519ms[==========================================--------]  84.03% 12s460ms ETA: 2s367ms[==========================================--------]  85.00% 12s561ms ETA: 2s215ms[===========================================-------]  86.01% 12s626ms ETA: 2s53ms [===========================================-------]  87.02% 12s683ms ETA: 1s891ms[============================================------]  88.03% 12s731ms ETA: 1s730ms[============================================------]  89.01% 12s818ms ETA: 1s583ms[=============================================-----]  90.01% 12s859ms ETA: 1s426ms[=============================================-----]  91.02% 12s910ms ETA: 1s272ms[==============================================----]  92.03% 12s959ms ETA: 1s121ms[==============================================----]  93.01% 13s119ms ETA: 986ms  [==============================================----]  93.23% 13s126ms ETA: 952ms[===============================================---]  94.02% 13s214ms ETA: 840ms[===============================================---]  95.03% 13s295ms ETA: 695ms[================================================--]  96.04% 13s361ms ETA: 551ms[================================================--]  97.01% 13s427ms ETA: 414ms[=================================================-]  98.02% 13s493ms ETA: 272ms[=================================================-]  99.03% 13s587ms ETA: 133ms[==================================================] 100.00% 13s729ms ETA: 0ms  [==================================================] 100.00% 13s737ms ETA: 0ms
+Dedexing... Total: 293
+[--------------------------------------------------]   0.00% 0ms ETA: ?
+
+adding dummy call: #L02c182.   call `merchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;` @kind virtual; on DummyActivity16;
+
+[--------------------------------------------------]   1.02% 21ms ETA: ?[=-------------------------------------------------]   2.05% 25ms ETA: ?
+
+adding dummy call: #L02c542.   call `getHttpsURLConnection` (v0, v1, v2) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;` @kind static; on DummyActivity30;
+
+[=-------------------------------------------------]   3.07% 35ms ETA: ?[==------------------------------------------------]   4.10% 38ms ETA: ?[==------------------------------------------------]   5.12% 54ms ETA: ?[===-----------------------------------------------]   6.14% 58ms ETA: ?[===-----------------------------------------------]   7.17% 61ms ETA: ?[====----------------------------------------------]   8.19% 193ms ETA: 2s163ms
+
+adding dummy call: #L02c3da.   call `isValidCardHolderName` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z` @kind static; on DummyActivity25;
+
+[====----------------------------------------------]   9.22% 203ms ETA: 1s999ms[=====---------------------------------------------]  10.24% 226ms ETA: 1s981ms[=====---------------------------------------------]  11.26% 228ms ETA: 1s796ms
+
+adding dummy call: #L02c39e.   call `setZipCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V` @kind virtual; on DummyActivity24;
+
+[======--------------------------------------------]  12.29% 239ms ETA: 1s706ms[======--------------------------------------------]  13.31% 244ms ETA: 1s589ms
+
+adding dummy call: #L02c722.   call `<init>` (v0, v1, v2) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V` @kind virtual; on DummyActivity9;
+
+[=======-------------------------------------------]  14.33% 254ms ETA: 1s517ms[=======-------------------------------------------]  15.02% 255ms ETA: 1s443ms
+
+adding dummy call: #L02c236.   call `cardHolderName` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity19;
+
+[========------------------------------------------]  16.04% 265ms ETA: 1s387ms
+
+adding dummy call: #L02c6e6.   call `createMerchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;` @kind static; on DummyActivity8;
+
+
+
+adding dummy call: #L02c092.   call `isValidCVV` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z` @kind static; on DummyActivity12;
+
+[========------------------------------------------]  17.06% 279ms ETA: 1s355ms[=========-----------------------------------------]  18.09% 285ms ETA: 1s290ms[=========-----------------------------------------]  19.11% 290ms ETA: 1s227ms[==========----------------------------------------]  20.14% 294ms ETA: 1s166ms
+
+adding dummy call: #L02c2ea.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;` @kind static; on DummyActivity21;
+
+[==========----------------------------------------]  21.16% 301ms ETA: 1s121ms[===========---------------------------------------]  22.18% 305ms ETA: 1s69ms [===========---------------------------------------]  23.21% 308ms ETA: 1s19ms[============--------------------------------------]  24.23% 312ms ETA: 975ms 
+
+adding dummy call: #L02c48e.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;` @kind static; on DummyActivity28;
+
+[============--------------------------------------]  25.26% 320ms ETA: 947ms[=============-------------------------------------]  26.28% 322ms ETA: 903ms[=============-------------------------------------]  27.30% 325ms ETA: 865ms
+
+adding dummy call: #L02c452.   call `setCardHolderName` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V` @kind virtual; on DummyActivity27;
+
+[==============------------------------------------]  28.33% 333ms ETA: 842ms[==============------------------------------------]  29.01% 334ms ETA: 817ms[===============-----------------------------------]  30.03% 337ms ETA: 785ms
+
+adding dummy call: #L02c146.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency;` @kind static; on DummyActivity15;
+
+[===============-----------------------------------]  31.06% 355ms ETA: 788ms[================----------------------------------]  32.08% 361ms ETA: 764ms[================----------------------------------]  33.11% 366ms ETA: 739ms[=================---------------------------------]  34.13% 371ms ETA: 716ms[=================---------------------------------]  35.15% 375ms ETA: 691ms[==================--------------------------------]  36.18% 379ms ETA: 668ms[==================--------------------------------]  37.20% 384ms ETA: 648ms[===================-------------------------------]  38.23% 388ms ETA: 627ms[===================-------------------------------]  39.25% 391ms ETA: 605ms[====================------------------------------]  40.27% 394ms ETA: 584ms[====================------------------------------]  41.30% 396ms ETA: 562ms[=====================-----------------------------]  42.32% 398ms ETA: 542ms[=====================-----------------------------]  43.00% 400ms ETA: 530ms
+
+adding dummy call: #L02c632.   call `setCardNumber` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V` @kind virtual; on DummyActivity5;
+
+[======================----------------------------]  44.03% 405ms ETA: 514ms[======================----------------------------]  45.05% 411ms ETA: 501ms
+
+adding dummy call: #L02c5ba.   call `cvvCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity3;
+
+[=======================---------------------------]  46.08% 421ms ETA: 492ms[=======================---------------------------]  47.10% 432ms ETA: 485ms[========================--------------------------]  48.12% 435ms ETA: 468ms[========================--------------------------]  49.15% 438ms ETA: 453ms[=========================-------------------------]  50.17% 439ms ETA: 436ms[=========================-------------------------]  51.19% 447ms ETA: 426ms
+
+adding dummy call: #L02c2ae.   call `<init>` (v0, v1, v2, v3) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V` @kind virtual; on DummyActivity20;
+
+[==========================------------------------]  52.22% 453ms ETA: 414ms
+
+adding dummy call: #L02c1fa.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;` @kind static; on DummyActivity18;
+
+[==========================------------------------]  53.24% 459ms ETA: 403ms[===========================-----------------------]  54.27% 462ms ETA: 389ms[===========================-----------------------]  55.29% 467ms ETA: 377ms[============================----------------------]  56.31% 472ms ETA: 366ms[============================----------------------]  57.34% 473ms ETA: 351ms
+
+adding dummy call: #L02c57e.   call `setHashValue` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V` @kind virtual; on DummyActivity31;
+
+[=============================---------------------]  58.02% 481ms ETA: 348ms[=============================---------------------]  59.04% 484ms ETA: 335ms[==============================--------------------]  60.07% 487ms ETA: 323ms[==============================--------------------]  61.09% 490ms ETA: 312ms
+
+adding dummy call: #L02c10a.   call `convertTimeInMilisToDate` (v0, v1) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;` @kind static; on DummyActivity14;
+
+[===============================-------------------]  62.12% 500ms ETA: 304ms
+
+adding dummy call: #L02c056.   call `setActiveEndPointUrl` (v0) @signature `Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V` @kind static; on DummyActivity11;
+
+
+
+adding dummy call: #L02c362.   call `convertTimeInMilisToTime` (v0, v1) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;` @kind static; on DummyActivity23;
+
+[===============================-------------------]  63.14% 508ms ETA: 296ms[================================------------------]  64.16% 510ms ETA: 284ms[================================------------------]  65.19% 513ms ETA: 273ms[=================================-----------------]  66.21% 516ms ETA: 263ms[=================================-----------------]  67.24% 518ms ETA: 252ms
+
+adding dummy call: #L02c272.   call `isValidZipCode` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z` @kind static; on DummyActivity1;
+
+[==================================----------------]  68.26% 524ms ETA: 243ms
+
+adding dummy call: #L02c506.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;` @kind static; on DummyActivity2;
+
+[==================================----------------]  69.28% 530ms ETA: 234ms
+
+adding dummy call: #L02c66e.   call `zipCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity6;
+
+[===================================---------------]  70.31% 536ms ETA: 226ms
+
+adding dummy call: #L02c326.   call `setCardData` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V` @kind virtual; on DummyActivity22;
+
+[===================================---------------]  71.33% 551ms ETA: 221ms[====================================--------------]  72.01% 557ms ETA: 216ms
+
+adding dummy call: #L02c1be.   call `setGuid` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V` @kind virtual; on DummyActivity17;
+
+[====================================--------------]  73.04% 562ms ETA: 207ms[=====================================-------------]  74.06% 564ms ETA: 197ms
+
+adding dummy call: #L02c01a.   call `setExpirationMonth` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V` @kind virtual; on DummyActivity10;
+
+[=====================================-------------]  75.09% 568ms ETA: 188ms[======================================------------]  76.11% 590ms ETA: 185ms[======================================------------]  77.13% 592ms ETA: 175ms[=======================================-----------]  78.16% 593ms ETA: 165ms[=======================================-----------]  79.18% 597ms ETA: 156ms
+
+adding dummy call: #L02c416.   call `createMerchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;` @kind static; on DummyActivity26;
+
+[========================================----------]  80.20% 602ms ETA: 148ms[========================================----------]  81.23% 621ms ETA: 143ms[=========================================---------]  82.25% 626ms ETA: 135ms
+
+adding dummy call: #L02c0ce.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;` @kind static; on DummyActivity13;
+
+[=========================================---------]  83.28% 631ms ETA: 126ms[==========================================--------]  84.30% 657ms ETA: 122ms[==========================================--------]  85.32% 662ms ETA: 113ms[===========================================-------]  86.01% 673ms ETA: 109ms[===========================================-------]  87.03% 678ms ETA: 101ms[============================================------]  88.05% 690ms ETA: 93ms 
+
+adding dummy call: #L02c6aa.   call `setCvvCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V` @kind virtual; on DummyActivity7;
+
+[============================================------]  89.08% 695ms ETA: 85ms
+
+adding dummy call: #L02c5f6.   call `setFingerPrintData` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V` @kind virtual; on DummyActivity4;
+
+[=============================================-----]  90.10% 700ms ETA: 76ms[=============================================-----]  91.13% 702ms ETA: 68ms[==============================================----]  92.15% 704ms ETA: 59ms[==============================================----]  93.17% 706ms ETA: 51ms[===============================================---]  94.20% 708ms ETA: 43ms[===============================================---]  95.22% 712ms ETA: 35ms
+
+adding dummy call: #L02c4ca.   call `setExpirationYear` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V` @kind virtual; on DummyActivity29;
+
+[================================================--]  96.25% 717ms ETA: 27ms[================================================--]  97.27% 719ms ETA: 20ms[=================================================-]  98.29% 722ms ETA: 12ms[=================================================-]  99.32% 724ms ETA: 4ms [==================================================] 100.00% 726ms ETA: 0ms[==================================================] 100.00% 727ms ETA: 0ms
+Collecting information from authorize.apk...
+Read AndroidManifest.
+Read ARSC.
+Read Layout files.
+Start reachabilityAnalysis...
+Building Signature Based Call Graph... Total: 64
+[--------------------------------------------------]   0.00% 0ms Left: 64[--------------------------------------------------]   1.56% 0ms Left: 63[=-------------------------------------------------]   3.13% 45ms Left: 62[==------------------------------------------------]   4.69% 65ms Left: 61[===-----------------------------------------------]   6.25% 82ms Left: 60[===-----------------------------------------------]   7.81% 83ms Left: 59[====----------------------------------------------]   9.38% 84ms Left: 58[=====---------------------------------------------]  10.94% 85ms Left: 57[======--------------------------------------------]  12.50% 85ms Left: 56[=======-------------------------------------------]  14.06% 87ms Left: 55[=======-------------------------------------------]  15.63% 88ms Left: 54[========------------------------------------------]  17.19% 88ms Left: 53[=========-----------------------------------------]  18.75% 99ms Left: 52[==========----------------------------------------]  20.31% 99ms Left: 51[==========----------------------------------------]  21.88% 100ms Left: 50[===========---------------------------------------]  23.44% 100ms Left: 49[============--------------------------------------]  25.00% 107ms Left: 48[=============-------------------------------------]  26.56% 107ms Left: 47[==============------------------------------------]  28.13% 108ms Left: 46[==============------------------------------------]  29.69% 108ms Left: 45[===============-----------------------------------]  31.25% 108ms Left: 44[================----------------------------------]  32.81% 181ms Left: 43[=================---------------------------------]  34.38% 191ms Left: 42[=================---------------------------------]  35.94% 194ms Left: 41[==================--------------------------------]  37.50% 232ms Left: 40[===================-------------------------------]  39.06% 232ms Left: 39[====================------------------------------]  40.63% 233ms Left: 38[=====================-----------------------------]  42.19% 252ms Left: 37[=====================-----------------------------]  43.75% 259ms Left: 36[======================----------------------------]  45.31% 375ms Left: 35[=======================---------------------------]  46.88% 385ms Left: 34[========================--------------------------]  48.44% 391ms Left: 33[=========================-------------------------]  50.00% 392ms Left: 32[=========================-------------------------]  51.56% 392ms Left: 31[==========================------------------------]  53.13% 402ms Left: 30[===========================-----------------------]  54.69% 414ms Left: 29[============================----------------------]  56.25% 420ms Left: 28[============================----------------------]  57.81% 426ms Left: 27[=============================---------------------]  59.38% 426ms Left: 26[==============================--------------------]  60.94% 429ms Left: 25[===============================-------------------]  62.50% 429ms Left: 24[================================------------------]  64.06% 436ms Left: 23[================================------------------]  65.63% 437ms Left: 22[=================================-----------------]  67.19% 438ms Left: 21[==================================----------------]  68.75% 441ms Left: 20[===================================---------------]  70.31% 442ms Left: 19[===================================---------------]  71.88% 442ms Left: 18[====================================--------------]  73.44% 445ms Left: 17[=====================================-------------]  75.00% 446ms Left: 16[======================================------------]  76.56% 451ms Left: 15[=======================================-----------]  78.13% 455ms Left: 14[=======================================-----------]  79.69% 457ms Left: 13[========================================----------]  81.25% 457ms Left: 12[=========================================---------]  82.81% 464ms Left: 11[==========================================--------]  84.38% 464ms Left: 10[==========================================--------]  85.94% 466ms Left: 9 [===========================================-------]  87.50% 470ms Left: 8[============================================------]  89.06% 478ms Left: 7[=============================================-----]  90.63% 481ms Left: 6[==============================================----]  92.19% 482ms Left: 5[==============================================----]  93.75% 483ms Left: 4[===============================================---]  95.31% 483ms Left: 3[================================================--]  96.88% 486ms Left: 2[=================================================-]  98.44% 487ms Left: 1[==================================================] 100.00% 488ms Left: 0[==================================================] 100.00% 493ms Left: 0
+CHA done with method size 101.
+ReachabilityAnalysis done.
+Analyzing callbacks...
+Collecting callback methods in layout mappings...
+Collecting callback methods in app source...
+Collecting XML based callback methods...
+Callback collection done.
+Generate environment for 32 components.
+Info collection done.
+Prepare IDFGs for: authorize.apk
+--Analyzing component: com.example.app.DummyActivity2
+--Analyzing component: com.example.app.DummyActivity21
+--Analyzing component: com.example.app.DummyActivity23
+--Analyzing component: com.example.app.DummyActivity4
+--Analyzing component: com.example.app.DummyActivity8
+--Analyzing component: com.example.app.DummyActivity24
+--Analyzing component: com.example.app.DummyActivity26
+--Analyzing component: com.example.app.DummyActivity27
+--Analyzing component: com.example.app.DummyActivity12
+--Analyzing component: com.example.app.DummyActivity14
+--Analyzing component: com.example.app.DummyActivity25
+--Analyzing component: com.example.app.DummyActivity9
+--Analyzing component: com.example.app.DummyActivity13
+--Analyzing component: com.example.app.DummyActivity18
+--Analyzing component: com.example.app.DummyActivity16
+--Analyzing component: com.example.app.DummyActivity17
+--Analyzing component: com.example.app.DummyActivity22
+--Analyzing component: com.example.app.DummyActivity11
+--Analyzing component: com.example.app.DummyActivity3
+--Analyzing component: com.example.app.DummyActivity19
+--Analyzing component: com.example.app.DummyActivity1
+--Analyzing component: com.example.app.MainActivity
+--Analyzing component: com.example.app.DummyActivity30
+--Analyzing component: com.example.app.DummyActivity5
+--Analyzing component: com.example.app.DummyActivity6
+--Analyzing component: com.example.app.DummyActivity20
+--Analyzing component: com.example.app.DummyActivity31
+--Analyzing component: com.example.app.DummyActivity28
+--Analyzing component: com.example.app.DummyActivity15
+--Analyzing component: com.example.app.DummyActivity10
+--Analyzing component: com.example.app.DummyActivity29
+--Analyzing component: com.example.app.DummyActivity7
+ComponentBasedAnalysis: Phase 1:
+--Analyzing authorize.apk
+----Data Dependence Analysis: com.example.app.DummyActivity2
+----Data Dependence Analysis: com.example.app.DummyActivity21
+----Data Dependence Analysis: com.example.app.DummyActivity23
+----Data Dependence Analysis: com.example.app.DummyActivity4
+----Data Dependence Analysis: com.example.app.DummyActivity8
+----Data Dependence Analysis: com.example.app.DummyActivity24
+----Data Dependence Analysis: com.example.app.DummyActivity26
+----Data Dependence Analysis: com.example.app.DummyActivity27
+----Data Dependence Analysis: com.example.app.DummyActivity12
+----Data Dependence Analysis: com.example.app.DummyActivity14
+----Data Dependence Analysis: com.example.app.DummyActivity25
+----Data Dependence Analysis: com.example.app.DummyActivity9
+----Data Dependence Analysis: com.example.app.DummyActivity13
+----Data Dependence Analysis: com.example.app.DummyActivity18
+----Data Dependence Analysis: com.example.app.DummyActivity16
+----Data Dependence Analysis: com.example.app.DummyActivity17
+----Data Dependence Analysis: com.example.app.DummyActivity22
+----Data Dependence Analysis: com.example.app.DummyActivity11
+----Data Dependence Analysis: com.example.app.DummyActivity3
+----Data Dependence Analysis: com.example.app.DummyActivity19
+----Data Dependence Analysis: com.example.app.DummyActivity1
+----Data Dependence Analysis: com.example.app.MainActivity
+----Data Dependence Analysis: com.example.app.DummyActivity30
+----Data Dependence Analysis: com.example.app.DummyActivity5
+----Data Dependence Analysis: com.example.app.DummyActivity6
+----Data Dependence Analysis: com.example.app.DummyActivity20
+----Data Dependence Analysis: com.example.app.DummyActivity31
+----Data Dependence Analysis: com.example.app.DummyActivity28
+----Data Dependence Analysis: com.example.app.DummyActivity15
+----Data Dependence Analysis: com.example.app.DummyActivity10
+----Data Dependence Analysis: com.example.app.DummyActivity29
+----Data Dependence Analysis: com.example.app.DummyActivity7
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity26,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity21,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity14,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity28,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.MainActivity,ACTIVITY,true,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity31,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity6,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity5,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity22,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity30,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity11,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity23,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity15,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity12,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity27,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity25,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity4,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity17,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity3,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity2,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity19,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity24,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity13,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity9,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity10,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity7,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity20,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity8,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity18,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity1,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity16,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity29,ACTIVITY,false,true,Set(),Map())
+ComponentBasedAnalysis: Phase 2-------1 apk 32 components-------
+--Link inter-component data dependence
+ComponentBasedAnalysis: Phase 3-------1 apk 32 components-------
+Done!
+Debug info write into /home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/output/authorize/.report
+ INFO | 2023-05-04 12:02:00.305 | Interface.ArgumentsCheck (ArgumentsCheck.java:148) | Displaying info level logs
+ INFO | 2023-05-04 12:02:00.518 | Interface.ArgumentsCheck (ArgumentsCheck.java:176) | Using the output: Default
+ INFO | 2023-05-04 12:02:00.532 | parameterChecks.Core (Core.java:145) | Scanning 1 source file(s).
+ INFO | 2023-05-04 12:02:00.566 | routing.EnvironmentInformation (EnvironmentInformation.java:376) | Building the Package Root Dir based on type
+ INFO | 2023-05-04 12:02:00.574 | routing.EnvironmentInformation (EnvironmentInformation.java:410) | Building the Root Directory
+ INFO | 2023-05-04 12:02:00.593 | Interface.SubRunner (SubRunner.java:57) | Starting the scanning process
+ INFO | 2023-05-04 12:02:00.605 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: InsecureAssymCryptoFinder
+ INFO | 2023-05-04 12:03:19.040 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: BrokenCryptoFinder
+ INFO | 2023-05-04 12:03:19.390 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: UntrustedPrngFinder
+ INFO | 2023-05-04 12:03:21.354 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: SSLSocketFactoryFinder
+ INFO | 2023-05-04 12:03:25.166 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: CustomTrustManagerFinder
+ INFO | 2023-05-04 12:03:25.224 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: HostNameVerifierFinder
+ INFO | 2023-05-04 12:03:25.280 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: BrokenHashFinder
+ INFO | 2023-05-04 12:03:25.614 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: ConstantKeyFinder
+ INFO | 2023-05-04 12:03:26.122 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableIVFinder
+ INFO | 2023-05-04 12:03:26.436 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PBESaltFinder
+ INFO | 2023-05-04 12:03:26.809 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PBEInterationCountFinder
+ INFO | 2023-05-04 12:03:27.201 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableSeedFinder
+ INFO | 2023-05-04 12:03:27.585 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableKeyStorePasswordFinder
+ INFO | 2023-05-04 12:03:27.968 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: HttpUrlFinder
+ INFO | 2023-05-04 12:03:29.386 | Interface.SubRunner (SubRunner.java:59) | Stopped the scanning process
+ INFO | 2023-05-04 12:03:29.397 | block.Default (Default.java:68) | Marshalling the Report from the Env. Info.
+ INFO | 2023-05-04 12:03:29.500 | Interface.SubRunner (SubRunner.java:62) | Writing the output to the file: /home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/_CryptoGuard-04.05.03_2020-11-25-02-42_authorize_db597b95-c15e-4d02-9234-7d61a669c622_.json
+/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/_CryptoGuard-04.05.03_2020-11-25-02-42_authorize_db597b95-c15e-4d02-9234-7d61a669c622_.json
+Analyzing SDK: authorize
+Phase 1: Beginning preprocessing step
+Removing old library file. . .
+Copying new library file. . .
+Phase 2: Generating APK for authorize
+Phase 3: Running dataflow analysis
+Phase 4: Running Crypto/ TLS analysis

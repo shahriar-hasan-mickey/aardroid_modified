@@ -1,0 +1,408 @@
+Analyzing SDK: authorize
+Phase 1: Beginning preprocessing step
+Initializing AARDroid. . .
+Removing old temporary directories. . . 
+Creating new temporary directories. . . 
+Checking if the .aar file exists . . .
+File found in directory ../AAR/Test/authorize.aar
+Copying .aar file into temp directory . . . 
+File copy successful
+Unzipping .aar file . . . 
+Unzipping successful.
+Extracting classes.jar into temp/jar . . .
+Extraction successful. Classes extracted to temp/jar
+Parsing ontology files. . .
+
+Ontology parsing complete. . .
+Initializing ASM Parser. . .
+Processing done
+Generating SS file. . .
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication; SENSITIVE_INFO_STATIC -> _SOURCE_ 1|2
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1|2|3
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder; SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V SENSITIVE_INFO -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; SENSITIVE_INFO_STATIC -> _SOURCE_ 2
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType; SENSITIVE_INFO_STATIC -> _SOURCE_ 1
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V SENSITIVE_INFO -> _SOURCE_ 1
+File already exists.
+Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;,1:username,2:key
+Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V,1:url
+Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V,1:identifier
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V,1:paymentcardinformation
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V,1:paymentcardnumber
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V,1:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;,1:username,2:hash
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V,1:hash
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;,1:credential
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V,1:paymentcardnumber,2:paymentcardexpirationdate,3:paymentcardexpirationdate
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:zipcode
+Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;,1:personname
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z,1:creditcardsecuritycode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z,1:zipcode
+Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V,1:hash
+Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;,1:personname
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,2:geographicallocation
+Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;,1:url
+Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;,1:personname
+Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;,1:personname
+Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V,1:hash
+SS file generated in temp/SS.txt 
+Removing old files from activity directory: app/src/main/java/com/example/app
+Creating new activity directory: app/src/main/java/com/example/app
+Copying activity template in activity directory. . 
+Removing old manifest file . . .
+Creating new manifest file with 31 activities . . 
+Manifest generated in app/src/main/AndroidManifest.xml directory. . . 
+Creating dummy activities . . 
+Dummy  activities created . . 
+Removing old library file. . .
+Copying new library file. . .
+Phase 2: Generating APK for authorize
+Initiating AARDroid. . .
+
+BUILD SUCCESSFUL in 975ms
+2 actionable tasks: 2 executed
+Gradle clean done
+Building dummy app
+
+> Task :app:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/reports/lint-results.html
+Wrote XML report to file:///home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/reports/lint-results.xml
+
+BUILD SUCCESSFUL in 12s
+61 actionable tasks: 61 executed
+Building dummy app successful
+cp: cannot create regular file 'generated_apks/authorize.apk': No such file or directory
+cp: cannot create regular file 'generated_ss/authorize.txt': No such file or directory
+cp: cannot create regular file 'generated_sensitivity/authorize.txt': No such file or directory
+cp: cannot create regular file 'sdk_manifests/authorize.xml': No such file or directory
+cp: cannot stat 'temp/unzip/res/layout': No such file or directory
+Phase 3: Running dataflow analysis
+Total apks: 1
+Analyzing #1:file:/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/build/outputs/apk/debug/authorize.apk
+Dedexing... Total: 2674
+[==================================================] 100.00% 14s442ms ETA: 0ms      
+Dedexing... Total: 293
+[--------------------------------------------------]   0.00% 0ms ETA: ?
+
+adding dummy call: #L02c182.   call `merchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;.merchantAuthentication:(Lnet/authorize/acceptsdk/datamodel/merchant/AbstractMerchantAuthentication;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject$Builder;` @kind virtual; on DummyActivity16;
+
+[=-------------------------------------------------]   2.05% 31ms ETA: ?
+
+adding dummy call: #L02c542.   call `getHttpsURLConnection` (v0, v1, v2) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;` @kind static; on DummyActivity30;
+
+[====----------------------------------------------]   8.19% 207ms ETA: 2s320ms
+
+adding dummy call: #L02c3da.   call `isValidCardHolderName` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidCardHolderName:(Ljava/lang/String;)Z` @kind static; on DummyActivity25;
+
+[=====---------------------------------------------]  11.26% 246ms ETA: 1s938ms
+
+adding dummy call: #L02c39e.   call `setZipCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setZipCode:(Ljava/lang/String;)V` @kind virtual; on DummyActivity24;
+
+[======--------------------------------------------]  13.31% 262ms ETA: 1s706ms
+
+adding dummy call: #L02c722.   call `<init>` (v0, v1, v2) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData$Builder;.<init>:(Ljava/lang/String;J)V` @kind virtual; on DummyActivity9;
+
+[=======-------------------------------------------]  15.02% 275ms ETA: 1s556ms
+
+adding dummy call: #L02c236.   call `cardHolderName` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cardHolderName:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity19;
+
+[========------------------------------------------]  16.04% 287ms ETA: 1s502ms
+
+adding dummy call: #L02c6e6.   call `createMerchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/ClientKeyBasedMerchantAuthentication;` @kind static; on DummyActivity8;
+
+
+
+adding dummy call: #L02c092.   call `isValidCVV` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidCVV:(Ljava/lang/String;)Z` @kind static; on DummyActivity12;
+
+[==========----------------------------------------]  20.14% 319ms ETA: 1s265ms
+
+adding dummy call: #L02c2ea.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/merchant/MerchantAuthenticationType;` @kind static; on DummyActivity21;
+
+[============--------------------------------------]  24.23% 340ms ETA: 1s63ms 
+
+adding dummy call: #L02c48e.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/LogUtil$LOG_LEVEL;` @kind static; on DummyActivity28;
+
+[=============-------------------------------------]  27.30% 364ms ETA: 969ms 
+
+adding dummy call: #L02c452.   call `setCardHolderName` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardHolderName:(Ljava/lang/String;)V` @kind virtual; on DummyActivity27;
+
+[===============-----------------------------------]  30.03% 383ms ETA: 892ms
+
+adding dummy call: #L02c146.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/util/SDKCurrency;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/util/SDKCurrency;` @kind static; on DummyActivity15;
+
+[=====================-----------------------------]  43.00% 437ms ETA: 579ms
+
+adding dummy call: #L02c632.   call `setCardNumber` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCardNumber:(Ljava/lang/String;)V` @kind virtual; on DummyActivity5;
+
+[======================----------------------------]  45.05% 455ms ETA: 554ms
+
+adding dummy call: #L02c5ba.   call `cvvCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.cvvCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity3;
+
+[=========================-------------------------]  51.19% 497ms ETA: 473ms
+
+adding dummy call: #L02c2ae.   call `<init>` (v0, v1, v2, v3) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V` @kind virtual; on DummyActivity20;
+
+[==========================------------------------]  52.22% 506ms ETA: 463ms
+
+adding dummy call: #L02c1fa.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/error/SDKErrorCode;` @kind static; on DummyActivity18;
+
+[============================----------------------]  57.34% 530ms ETA: 394ms
+
+adding dummy call: #L02c57e.   call `setHashValue` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;.setHashValue:(Ljava/lang/String;)V` @kind virtual; on DummyActivity31;
+
+[==============================--------------------]  61.09% 551ms ETA: 350ms
+
+adding dummy call: #L02c10a.   call `convertTimeInMilisToDate` (v0, v1) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToDate:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;` @kind static; on DummyActivity14;
+
+[===============================-------------------]  62.12% 567ms ETA: 345ms
+
+adding dummy call: #L02c056.   call `setActiveEndPointUrl` (v0) @signature `Lnet/authorize/acceptsdk/network/ConnectionData;.setActiveEndPointUrl:(Ljava/lang/String;)V` @kind static; on DummyActivity11;
+
+
+
+adding dummy call: #L02c362.   call `convertTimeInMilisToTime` (v0, v1) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.convertTimeInMilisToTime:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;` @kind static; on DummyActivity23;
+
+[=================================-----------------]  67.24% 596ms ETA: 290ms
+
+adding dummy call: #L02c272.   call `isValidZipCode` (v0) @signature `Lnet/authorize/acceptsdk/ValidationManager;.isValidZipCode:(Ljava/lang/String;)Z` @kind static; on DummyActivity1;
+
+[==================================----------------]  68.26% 601ms ETA: 279ms
+
+adding dummy call: #L02c506.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/TransactionType;` @kind static; on DummyActivity2;
+
+[==================================----------------]  69.28% 608ms ETA: 269ms
+
+adding dummy call: #L02c66e.   call `zipCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;.zipCode:(Ljava/lang/String;)Lnet/authorize/acceptsdk/datamodel/transaction/CardData$Builder;` @kind virtual; on DummyActivity6;
+
+[===================================---------------]  70.31% 614ms ETA: 259ms
+
+adding dummy call: #L02c326.   call `setCardData` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setCardData:(Lnet/authorize/acceptsdk/datamodel/transaction/CardData;)V` @kind virtual; on DummyActivity22;
+
+[====================================--------------]  72.01% 639ms ETA: 248ms
+
+adding dummy call: #L02c1be.   call `setGuid` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/TransactionObject;.setGuid:(Ljava/lang/String;)V` @kind virtual; on DummyActivity17;
+
+[=====================================-------------]  74.06% 646ms ETA: 226ms
+
+adding dummy call: #L02c01a.   call `setExpirationMonth` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationMonth:(Ljava/lang/String;)V` @kind virtual; on DummyActivity10;
+
+[=======================================-----------]  79.18% 684ms ETA: 179ms
+
+adding dummy call: #L02c416.   call `createMerchantAuthentication` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.createMerchantAuthentication:(Ljava/lang/String;Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;` @kind static; on DummyActivity26;
+
+[=========================================---------]  82.25% 718ms ETA: 154ms
+
+adding dummy call: #L02c0ce.   call `valueOf` (v0) @signature `Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;.valueOf:(Ljava/lang/String;)Lnet/authorize/acceptsdk/AcceptSDKApiClient$Environment;` @kind static; on DummyActivity13;
+
+[============================================------]  88.05% 786ms ETA: 106ms
+
+adding dummy call: #L02c6aa.   call `setCvvCode` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setCvvCode:(Ljava/lang/String;)V` @kind virtual; on DummyActivity7;
+
+[============================================------]  89.08% 791ms ETA: 96ms 
+
+adding dummy call: #L02c5f6.   call `setFingerPrintData` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintBasedMerchantAuthentication;.setFingerPrintData:(Lnet/authorize/acceptsdk/datamodel/merchant/FingerPrintData;)V` @kind virtual; on DummyActivity4;
+
+[===============================================---]  95.22% 812ms ETA: 40ms
+
+adding dummy call: #L02c4ca.   call `setExpirationYear` (v0, v1) @signature `Lnet/authorize/acceptsdk/datamodel/transaction/CardData;.setExpirationYear:(Ljava/lang/String;)V` @kind virtual; on DummyActivity29;
+
+[==================================================] 100.00% 831ms ETA: 0ms 
+Collecting information from authorize.apk...
+Read AndroidManifest.
+Read ARSC.
+Read Layout files.
+Start reachabilityAnalysis...
+Building Signature Based Call Graph... Total: 64
+[==================================================] 100.00% 676ms Left: 0 
+CHA done with method size 101.
+ReachabilityAnalysis done.
+Analyzing callbacks...
+Collecting callback methods in layout mappings...
+Collecting callback methods in app source...
+Collecting XML based callback methods...
+Callback collection done.
+Generate environment for 32 components.
+Info collection done.
+Prepare IDFGs for: authorize.apk
+--Analyzing component: com.example.app.DummyActivity2
+--Analyzing component: com.example.app.DummyActivity21
+--Analyzing component: com.example.app.DummyActivity23
+--Analyzing component: com.example.app.DummyActivity4
+--Analyzing component: com.example.app.DummyActivity8
+--Analyzing component: com.example.app.DummyActivity24
+--Analyzing component: com.example.app.DummyActivity26
+--Analyzing component: com.example.app.DummyActivity27
+--Analyzing component: com.example.app.DummyActivity12
+--Analyzing component: com.example.app.DummyActivity14
+--Analyzing component: com.example.app.DummyActivity25
+--Analyzing component: com.example.app.DummyActivity9
+--Analyzing component: com.example.app.DummyActivity13
+--Analyzing component: com.example.app.DummyActivity18
+--Analyzing component: com.example.app.DummyActivity16
+--Analyzing component: com.example.app.DummyActivity17
+--Analyzing component: com.example.app.DummyActivity22
+--Analyzing component: com.example.app.DummyActivity11
+--Analyzing component: com.example.app.DummyActivity3
+--Analyzing component: com.example.app.DummyActivity19
+--Analyzing component: com.example.app.DummyActivity1
+--Analyzing component: com.example.app.MainActivity
+--Analyzing component: com.example.app.DummyActivity30
+--Analyzing component: com.example.app.DummyActivity5
+--Analyzing component: com.example.app.DummyActivity6
+--Analyzing component: com.example.app.DummyActivity20
+--Analyzing component: com.example.app.DummyActivity31
+--Analyzing component: com.example.app.DummyActivity28
+--Analyzing component: com.example.app.DummyActivity15
+--Analyzing component: com.example.app.DummyActivity10
+--Analyzing component: com.example.app.DummyActivity29
+--Analyzing component: com.example.app.DummyActivity7
+ComponentBasedAnalysis: Phase 1:
+--Analyzing authorize.apk
+----Data Dependence Analysis: com.example.app.DummyActivity2
+----Data Dependence Analysis: com.example.app.DummyActivity21
+----Data Dependence Analysis: com.example.app.DummyActivity23
+----Data Dependence Analysis: com.example.app.DummyActivity4
+----Data Dependence Analysis: com.example.app.DummyActivity8
+----Data Dependence Analysis: com.example.app.DummyActivity24
+----Data Dependence Analysis: com.example.app.DummyActivity26
+----Data Dependence Analysis: com.example.app.DummyActivity27
+----Data Dependence Analysis: com.example.app.DummyActivity12
+----Data Dependence Analysis: com.example.app.DummyActivity14
+----Data Dependence Analysis: com.example.app.DummyActivity25
+----Data Dependence Analysis: com.example.app.DummyActivity9
+----Data Dependence Analysis: com.example.app.DummyActivity13
+----Data Dependence Analysis: com.example.app.DummyActivity18
+----Data Dependence Analysis: com.example.app.DummyActivity16
+----Data Dependence Analysis: com.example.app.DummyActivity17
+----Data Dependence Analysis: com.example.app.DummyActivity22
+----Data Dependence Analysis: com.example.app.DummyActivity11
+----Data Dependence Analysis: com.example.app.DummyActivity3
+----Data Dependence Analysis: com.example.app.DummyActivity19
+----Data Dependence Analysis: com.example.app.DummyActivity1
+----Data Dependence Analysis: com.example.app.MainActivity
+----Data Dependence Analysis: com.example.app.DummyActivity30
+----Data Dependence Analysis: com.example.app.DummyActivity5
+----Data Dependence Analysis: com.example.app.DummyActivity6
+----Data Dependence Analysis: com.example.app.DummyActivity20
+----Data Dependence Analysis: com.example.app.DummyActivity31
+----Data Dependence Analysis: com.example.app.DummyActivity28
+----Data Dependence Analysis: com.example.app.DummyActivity15
+----Data Dependence Analysis: com.example.app.DummyActivity10
+----Data Dependence Analysis: com.example.app.DummyActivity29
+----Data Dependence Analysis: com.example.app.DummyActivity7
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity26,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity21,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity14,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity28,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.MainActivity,ACTIVITY,true,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity31,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity6,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity5,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity22,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity30,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity11,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity23,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity15,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity12,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity27,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity25,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity4,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity17,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity3,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity2,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity19,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity24,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity13,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity9,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity10,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity7,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity20,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity8,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity18,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity1,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity16,ACTIVITY,false,true,Set(),Map())
+----Building ST for component: ComponentInfo(com.example.app.DummyActivity29,ACTIVITY,false,true,Set(),Map())
+ComponentBasedAnalysis: Phase 2-------1 apk 32 components-------
+--Link inter-component data dependence
+ComponentBasedAnalysis: Phase 3-------1 apk 32 components-------
+AndroidDataDependentTaintAnalysis found 2 paths.
+Taint path: maliciousness:information_theft 
+api_source: Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection; 1
+	-> api_sink: Ljava/net/URL;.openConnection:()Ljava/net/URLConnection; 0
+#L02c542.  call `getHttpsURLConnection`(v0, v1, v2) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;` @kind static;p1
+	-> Entry@Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;p1
+	-> #L23724c.  call `<init>`(v0, v4) @signature `Ljava/net/URL;.<init>:(Ljava/lang/String;)V` @kind direct;p1
+	-> VirtualBody@(SDKUtils.getHttpsURLConnection,L23724c)(DummyActivity30.onCreate,L02c542)
+	-> #L237252.  call temp:= `openConnection`(v0) @signature `Ljava/net/URL;.openConnection:()Ljava/net/URLConnection;` @kind virtual;p0
+Taint path: maliciousness:information_theft 
+api_source: Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection; 1
+	-> api_sink: Ljava/net/URL;.<init>:(Ljava/lang/String;)V 1
+#L02c542.  call `getHttpsURLConnection`(v0, v1, v2) @signature `Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;` @kind static;p1
+	-> Entry@Lnet/authorize/acceptsdk/util/SDKUtils;.getHttpsURLConnection:(Ljava/lang/String;Ljava/lang/String;Z)Ljavax/net/ssl/HttpsURLConnection;p1
+	-> #L23724c.  call `<init>`(v0, v4) @signature `Ljava/net/URL;.<init>:(Ljava/lang/String;)V` @kind direct;p1
+
+Done!
+Debug info write into /home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/output/authorize/.report
+Phase 4: Running Crypto/ TLS analysis
+ INFO | 2023-05-04 12:16:22.952 | Interface.ArgumentsCheck (ArgumentsCheck.java:148) | Displaying info level logs
+ INFO | 2023-05-04 12:16:23.161 | Interface.ArgumentsCheck (ArgumentsCheck.java:176) | Using the output: Default
+ INFO | 2023-05-04 12:16:23.178 | parameterChecks.Core (Core.java:145) | Scanning 1 source file(s).
+ INFO | 2023-05-04 12:16:23.221 | routing.EnvironmentInformation (EnvironmentInformation.java:376) | Building the Package Root Dir based on type
+ INFO | 2023-05-04 12:16:23.230 | routing.EnvironmentInformation (EnvironmentInformation.java:410) | Building the Root Directory
+ INFO | 2023-05-04 12:16:23.251 | Interface.SubRunner (SubRunner.java:57) | Starting the scanning process
+ INFO | 2023-05-04 12:16:23.272 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: InsecureAssymCryptoFinder
+ INFO | 2023-05-04 12:17:48.722 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: BrokenCryptoFinder
+ INFO | 2023-05-04 12:17:49.125 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: UntrustedPrngFinder
+ INFO | 2023-05-04 12:17:51.188 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: SSLSocketFactoryFinder
+ INFO | 2023-05-04 12:17:55.202 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: CustomTrustManagerFinder
+ INFO | 2023-05-04 12:17:55.263 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: HostNameVerifierFinder
+ INFO | 2023-05-04 12:17:55.323 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: BrokenHashFinder
+ INFO | 2023-05-04 12:17:55.651 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: ConstantKeyFinder
+ INFO | 2023-05-04 12:17:56.149 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableIVFinder
+ INFO | 2023-05-04 12:17:56.416 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PBESaltFinder
+ INFO | 2023-05-04 12:17:56.877 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PBEInterationCountFinder
+ INFO | 2023-05-04 12:17:57.360 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableSeedFinder
+ INFO | 2023-05-04 12:17:57.708 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: PredictableKeyStorePasswordFinder
+ INFO | 2023-05-04 12:17:58.104 | engine.ApkEntry (ApkEntry.java:24) | Checking the rule: HttpUrlFinder
+ INFO | 2023-05-04 12:17:59.422 | Interface.SubRunner (SubRunner.java:59) | Stopped the scanning process
+ INFO | 2023-05-04 12:17:59.425 | block.Default (Default.java:68) | Marshalling the Report from the Env. Info.
+ INFO | 2023-05-04 12:17:59.545 | Interface.SubRunner (SubRunner.java:62) | Writing the output to the file: /home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/_CryptoGuard-04.05.03_2020-11-25-02-42_authorize_f6ce7f42-50b9-4d99-b8b4-9531ba81f32c_.json
+/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/_CryptoGuard-04.05.03_2020-11-25-02-42_authorize_f6ce7f42-50b9-4d99-b8b4-9531ba81f32c_.json
