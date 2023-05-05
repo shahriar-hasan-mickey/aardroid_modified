@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:11:5-79
+11-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:11:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:12:5-76
+12-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:12:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:13:5-67
+13-->[:library:] /home/slave/.gradle/caches/transforms-2/files-2.1/58feb264552b4711775e3607b76942e3/jetified-library/AndroidManifest.xml:13:22-64
+14
+15    <application
+15-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:6:5-83:19
+16        android:allowBackup="true"
+16-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:8:9-35
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:12:9-35
+23        android:theme="@style/Theme.App" >
+23-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:13:9-41
+24        <activity android:name="com.example.app.MainActivity" >
+24-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:14:9-20:20
+24-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:14:19-47
+25            <intent-filter>
+25-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:16:17-69
+26-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:18:17-77
+28-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.app.DummyActivity1" />
+31-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:21:9-61
+31-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:21:19-49
+32        <activity android:name="com.example.app.DummyActivity2" />
+32-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:23:9-61
+32-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:23:19-49
+33        <activity android:name="com.example.app.DummyActivity3" />
+33-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:25:9-61
+33-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:25:19-49
+34        <activity android:name="com.example.app.DummyActivity4" />
+34-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:27:9-61
+34-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:27:19-49
+35        <activity android:name="com.example.app.DummyActivity5" />
+35-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:29:9-61
+35-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:29:19-49
+36        <activity android:name="com.example.app.DummyActivity6" />
+36-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:31:9-61
+36-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:31:19-49
+37        <activity android:name="com.example.app.DummyActivity7" />
+37-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:33:9-61
+37-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:33:19-49
+38        <activity android:name="com.example.app.DummyActivity8" />
+38-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:35:9-61
+38-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:35:19-49
+39        <activity android:name="com.example.app.DummyActivity9" />
+39-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:37:9-61
+39-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:37:19-49
+40        <activity android:name="com.example.app.DummyActivity10" />
+40-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:39:9-62
+40-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:39:19-50
+41        <activity android:name="com.example.app.DummyActivity11" />
+41-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:41:9-62
+41-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:41:19-50
+42        <activity android:name="com.example.app.DummyActivity12" />
+42-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:43:9-62
+42-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:43:19-50
+43        <activity android:name="com.example.app.DummyActivity13" />
+43-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:45:9-62
+43-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:45:19-50
+44        <activity android:name="com.example.app.DummyActivity14" />
+44-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:47:9-62
+44-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:47:19-50
+45        <activity android:name="com.example.app.DummyActivity15" />
+45-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:49:9-62
+45-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:49:19-50
+46        <activity android:name="com.example.app.DummyActivity16" />
+46-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:51:9-62
+46-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:51:19-50
+47        <activity android:name="com.example.app.DummyActivity17" />
+47-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:53:9-62
+47-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:53:19-50
+48        <activity android:name="com.example.app.DummyActivity18" />
+48-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:55:9-62
+48-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:55:19-50
+49        <activity android:name="com.example.app.DummyActivity19" />
+49-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:57:9-62
+49-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:57:19-50
+50        <activity android:name="com.example.app.DummyActivity20" />
+50-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:59:9-62
+50-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:59:19-50
+51        <activity android:name="com.example.app.DummyActivity21" />
+51-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:61:9-62
+51-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:61:19-50
+52        <activity android:name="com.example.app.DummyActivity22" />
+52-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:63:9-62
+52-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:63:19-50
+53        <activity android:name="com.example.app.DummyActivity23" />
+53-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:65:9-62
+53-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:65:19-50
+54        <activity android:name="com.example.app.DummyActivity24" />
+54-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:67:9-62
+54-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:67:19-50
+55        <activity android:name="com.example.app.DummyActivity25" />
+55-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:69:9-62
+55-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:69:19-50
+56        <activity android:name="com.example.app.DummyActivity26" />
+56-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:71:9-62
+56-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:71:19-50
+57        <activity android:name="com.example.app.DummyActivity27" />
+57-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:73:9-62
+57-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:73:19-50
+58        <activity android:name="com.example.app.DummyActivity28" />
+58-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:75:9-62
+58-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:75:19-50
+59        <activity android:name="com.example.app.DummyActivity29" />
+59-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:77:9-62
+59-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:77:19-50
+60        <activity android:name="com.example.app.DummyActivity30" />
+60-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:79:9-62
+60-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:79:19-50
+61        <activity android:name="com.example.app.DummyActivity31" />
+61-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:81:9-62
+61-->/home/slave/research/aardroid/aardroid/SNAPSHOT-1.0/app/src/main/AndroidManifest.xml:81:19-50
+62    </application>
+63
+64</manifest>

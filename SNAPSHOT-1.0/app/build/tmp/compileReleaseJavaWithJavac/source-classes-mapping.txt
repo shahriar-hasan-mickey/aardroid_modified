@@ -1,0 +1,66 @@
+com/example/app/DummyActivity2.java
+ com.example.app.DummyActivity2
+com/example/app/DummyActivity5.java
+ com.example.app.DummyActivity5
+com/example/app/DummyActivity22.java
+ com.example.app.DummyActivity22
+com/example/app/DummyActivity30.java
+ com.example.app.DummyActivity30
+com/example/app/DummyActivity25.java
+ com.example.app.DummyActivity25
+com/example/app/DummyActivity28.java
+ com.example.app.DummyActivity28
+com/example/app/MainActivity.java
+ com.example.app.MainActivity
+com/example/app/DummyActivity24.java
+ com.example.app.DummyActivity24
+com/example/app/DummyActivity21.java
+ com.example.app.DummyActivity21
+com/example/app/DummyActivity27.java
+ com.example.app.DummyActivity27
+com/example/app/DummyActivity1.java
+ com.example.app.DummyActivity1
+com/example/app/DummyActivity10.java
+ com.example.app.DummyActivity10
+com/example/app/DummyActivity13.java
+ com.example.app.DummyActivity13
+com/example/app/DummyActivity19.java
+ com.example.app.DummyActivity19
+com/example/app/DummyActivity8.java
+ com.example.app.DummyActivity8
+com/example/app/DummyActivity16.java
+ com.example.app.DummyActivity16
+com/example/app/BuildConfig.java
+ com.example.app.BuildConfig
+com/example/app/DummyActivity15.java
+ com.example.app.DummyActivity15
+com/example/app/DummyActivity12.java
+ com.example.app.DummyActivity12
+com/example/app/DummyActivity29.java
+ com.example.app.DummyActivity29
+com/example/app/DummyActivity18.java
+ com.example.app.DummyActivity18
+com/example/app/DummyActivity26.java
+ com.example.app.DummyActivity26
+com/example/app/DummyActivity20.java
+ com.example.app.DummyActivity20
+com/example/app/DummyActivity9.java
+ com.example.app.DummyActivity9
+com/example/app/DummyActivity23.java
+ com.example.app.DummyActivity23
+com/example/app/DummyActivity4.java
+ com.example.app.DummyActivity4
+com/example/app/DummyActivity7.java
+ com.example.app.DummyActivity7
+com/example/app/DummyActivity31.java
+ com.example.app.DummyActivity31
+com/example/app/DummyActivity17.java
+ com.example.app.DummyActivity17
+com/example/app/DummyActivity14.java
+ com.example.app.DummyActivity14
+com/example/app/DummyActivity6.java
+ com.example.app.DummyActivity6
+com/example/app/DummyActivity3.java
+ com.example.app.DummyActivity3
+com/example/app/DummyActivity11.java
+ com.example.app.DummyActivity11
